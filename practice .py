@@ -220,7 +220,7 @@ def ask_user():
     This means that a and b exist only within the 
     ask_user() function.'''
    
-    a = float(input("Enter first number, Enter second number "))
+    a = float(input("Enter first number "))
     b = float(input("Enter second nuber "))
     operator =input("Choose operation (+,-,*,/)")
     if operator == '+':
