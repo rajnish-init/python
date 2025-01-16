@@ -1,23 +1,23 @@
-# print("hello, world") 
-# print("my name is rajnish", "i am 24 year old")
-# print(25)
-# print (35)
-# print(25+35)
-# name = "rajnish"
-# age = 24
-# print("my name is :", name)
-# print("my age is :", age)
-# age2 = age 
-# print(age2)
-# #arithmetic operators
-# a = 5
-# b = 2
-# print(a+b)
-# print(a-b)
-# print(a*b)
-# print(a/b)
-# print(a%b) #remainder
-# print(a**b) #a to the power of b
+ print("hello, world") 
+ print("my name is rajnish", "i am 24 year old")
+ print(25)
+ print (35)
+ print(25+35)
+ name = "rajnish"
+ age = 24
+ print("my name is :", name)
+ print("my age is :", age)
+ age2 = age 
+ print(age2)
+ #arithmetic operators
+ a = 5
+ b = 2
+ print(a+b)
+ print(a-b)
+ print(a*b)
+ print(a/b)
+ print(a%b) #remainder
+ print(a**b) #a to the power of b
 
 #logical operators
 a = 50
