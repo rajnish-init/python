@@ -6,12 +6,12 @@ This repository contains a collection of Python scripts and projects I worked on
 
 ```plaintext 
 python-projects
-├── mainfile.py             # Main Python script for running key functionalities
+├── mainfile.py             # File I&O
 ├── README.md               # Documentation file
-├── calculator
+├── python
 │   ├── calculator.py       # Calculator script
 │   └── functions.py        # Helper functions for the calculator
-├── practice
+├── python
 │   ├── hello.py            # A script printing "Hello, World!"
 │   ├── loops.py            # Demonstrates loops in Python
 │   ├── managing-list.py    # List management examples
@@ -19,8 +19,8 @@ python-projects
 │   ├── practice.py         # General practice script
 │   ├── practice_02.py      # Continuation of practice exercises
 │   └── recursion.py        # Demonstrates recursion concepts
-├── notes
-│   └── practice.txt        # Notes and text-based outputs
+├── File I&O notes
+│   └── practice.txt        # File Management Notes and text-based outputs
 ├── workspace
 │   └── python.code-workspace  # Workspace configuration
 ```
@@ -38,11 +38,7 @@ cd python-projects
 
    *To run a specific script*:
 
-    python3 practice/hello.py
-
-*Or execute the main script*:
-
-    python3 mainfile.py
+    python3 python/hello.py 
 
 Python version: Ensure you have Python 3.x installed:
 
