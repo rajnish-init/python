@@ -111,9 +111,39 @@
 #     print(n)
 #     n -= 1
 
-for i in range(20,0,-1):
-    """20: The starting number of the loop.
-0: The stopping condition (not inclusive, so it stops at 1).
--1: The step size, which determines the decrement in each iteration."""
-    print(i)
+# for i in range(20,0,-1):
+#     """20: The starting number of the loop.
+# 0: The stopping condition (not inclusive, so it stops at 1).
+# -1: The step size, which determines the decrement in each iteration."""
+#     print(i)
 
+# number = [] #empty list to store inputs taken
+# for i in number:
+#     number = int(input("Enter any numbers: "))
+    
+
+# n = 7
+# sum = 0
+# for i in range(1, n+1):
+#     sum += i
+
+# print("The sum of 7 number is:",sum)
+
+
+#practice basics 
+
+for i in range(1, 10):
+    if i % 2 == 0:
+        print(f"{i} is even number")
+    else:
+        print(f"{i} is Odd number")
+
+nums= [55,77,44]
+for i in nums:
+    if i[0] >= i[1] and i[0] >= i[2]:
+        largest = i[0] 
+    elif i[1] >= i[0] and i[1] >= i[2]:
+        largest = i[1]
+    else:
+        largest = i[2]
+    print("the largest is ", largest)
