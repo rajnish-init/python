@@ -10,7 +10,7 @@ elif b >= a and b >= c:
 else:
     print("c is the greatest")
 
-Q2
+#Q2
 a = int(input("Enter a number: "))
 if a % 7 == 0:
     print(f"{a} is a multiple of 7.")
@@ -32,7 +32,7 @@ def ask_user():
 
 print(ask_user())
 
-FizzBuzz
+#FizzBuzz
 
 
 for i in range(1,51):
@@ -45,7 +45,7 @@ for i in range(1,51):
     else:
         print(i)
 
-Using While loop
+#Using While loop
 
 i = 1  
 while i <= 50:
@@ -62,7 +62,7 @@ while i <= 50:
 
 
     
-Temperature conversion
+#Temperature conversion
 
 def kelvin_to_celsuis(kelvin):
     celsius = kelvin - 273.15
@@ -130,7 +130,7 @@ for i in range(1, n+1):
 print("The sum of 7 number is:",sum)
 
 
-practice basics 
+#practice basics 
 
 for i in range(1, 10):
     if i % 2 == 0:

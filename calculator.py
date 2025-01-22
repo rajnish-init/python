@@ -139,7 +139,7 @@ evens, odds = separate_even_odd(numbers) # unpacking to print separate list
 print("even numbers:", evens)
 print("odd numbers:", odds)
 
- HARD CODE
+ #HARD CODE
 
 def separate_even_odd(): #without parameters
     even_numbers = []
@@ -155,7 +155,7 @@ evens, odds = separate_even_odd()
 print("Evens numbers:", evens)
 print("odd numbers:", odds)
 
-SOFT CODE
+#SOFT CODE
 def separate_even_odd(custom_range): # soft code or parameterization
     even_numbers = []
     odd_numbers = []

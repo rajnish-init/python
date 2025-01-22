@@ -1,4 +1,4 @@
-recursive function
+#recursive function
 def show (n):
     if n == 0:
         return
@@ -17,7 +17,7 @@ def show (n):
 
 show(3) 
 
-factorial
+#factorial
 def fact(n):
    if (n == 0 or n == 1):
       return 1

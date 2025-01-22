@@ -37,7 +37,7 @@ def cal_fact(n):
 cal_fact(6)
 
 
-return and without return
+#return and without return
 def cal_sum(a,b):
     sum = a+b
     print(sum)
@@ -146,8 +146,7 @@ def power(base, exp):
 
 print(power(2,2))
 
-def power(base, exp):
-    if 
+
 
 
 

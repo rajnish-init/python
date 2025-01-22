@@ -6,19 +6,19 @@ while count <= 100 :
     print("hello",count)
     count += 1   #count = count +1
 
-print numbers from1 to 5
+#print numbers from1 to 5
 i = 5
 while i >= 1:
-    print(i)
-    i -= 1
+        print(i)
+i -= 1
 
 print("Loop ended.")
 
-practice questions
+#practice questions
 i = 1
 while i <= 100:
     print(i)
-    i += 1
+i += 1
 
 i = 100
 while i >= 1: # stopping condition
@@ -49,14 +49,14 @@ while idx < len(nums):
     print(idx )
     idx += 1
 
-while loop
+#while loop
 nums = [1,4,9,16,25,36,49,64,81,100]
 i = 0
 while i< len(nums):
-    print(nums[i])
-    i += 1
+        print(nums[i])
+i += 1
 
-for loop
+#for loop
 nums = [1,4,9,16,25,36,49,64,81,100]
 
 for el in nums:
@@ -131,7 +131,7 @@ for num in nums:
     print("even number:", num)
 
 
-sum of n numbers 
+#sum of n numbers 
 n = 7     # 1+2+3+4+5+6+7 # Here, n is the number of terms up to which we want to calculate the sum.    It acts as a limit for our calculation, specifying that we want the sum of the numbers from 1 to n.   
 
 sum = 0 #This is a variable where the cumulative total will be stored as the loop progresses.   Initially, it’s set to 0 because no numbers have been added yet.
@@ -151,35 +151,33 @@ print("total sum is :", sum)
 
 nums = [1,4,9,16,25,36,49,64,81,100]
 for el in nums:
-    print(el)
+        print(el)
 
 nums = (1,4,9,16,25,36,49,64,81,100)
 x = 81
 for i in nums:
-    if i == 81:
-# #      print("found at index:", i)
+        if i == 81:
+                print("found at index:", i)
 
-
-
-# nums = (1,4,9,16,25,36,49,64,81,100)
-x = 64
-i = 0
+nums = (1,4,9,16,25,36,49,64,81,100)
+x=64
+i=0
 while i < len(nums):
-    if nums[i] == x: 
-        print("found at index :", i)
-    else:
-        print("finding...")
+        if nums[i] == x: 
+                print("found at index :", i)
+        else:
+                print("finding...")
 
         # break # Stop the loop once we find the value
-    i += 1
+        i += 1
 
 nums = (1,4,9,16,25,36,49,64,81,100)
 x = 81
 i = 0
 while i < len(nums):
-    if nums[i] == x:
-     print("found at index:", i)
-    i += 1
+        if nums[i] == x:
+                print("found at index:", i)
+        i += 1
 
 nums = (1,4,9,16,25,36,49,64,81,100)
 x = 9
