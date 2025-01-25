@@ -62,7 +62,11 @@ print('Greg\'s book.')
 print("'Greg's book.'")
 print('"Greg\'s book."')
 print("Greg\'s book.")
+
 print("Greg\'s book.") 
+
+print("Greg's book.") 
+>>>>>>> e1e3c52 (add CISCO python learning)
 
 print("2")
 print(2)
@@ -76,5 +80,11 @@ print("I like \"Monty Python\"")
 
 #an apostrophe instead of a quote
 print('I like "Monty Python"')
+
+
+#Boolean values
+print(True > False)
+print(True < False)
+
 
 
