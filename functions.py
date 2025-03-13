@@ -57,7 +57,7 @@ converter(83)
 
 god = ["shiva", "kaali", "krishna", "hanuman", "bramha",]
 def print_el(list):
-     for el in list:
+    for el in list:
         print(el,end=" ")
 
 god.insert(1,"chandi")
@@ -77,7 +77,7 @@ def print_len(list):
     print(len(list))
     
     
-print_len(list)
+
 
 god = ["shiva",3, "kaali", "krishna", "hanuman", "bramha",]
 def print_len(el):
@@ -87,14 +87,14 @@ def print_len(el):
 print_len(god)
 
 
-n = int(input("enter a number "))
+# n = int(input("enter a number "))
 def identifier(n):
     if n%2 == 0:
         print(n, " is even")
     else:
         print(n, "is odd")
     
-identifier(n)
+# identifier(n)
 
     
 def is_even(n):
@@ -147,9 +147,50 @@ def power(base, exp):
 print(power(2,2))
 
 
+def is_Greater(a,b):
+    if a>b:
+        print("First is greater than the second: ")
+    else:
+        print("second is greater than or equal to First")
+def is_Lower(c,d):
+    if c<d:
+        print("First is lower than second")
+    else:
+        print("second is lower than or equal to first")
 
 
 
+is_Greater(5,7)
+is_Lower(4,5)
 
+# #defaul arguments
+# def greet(name="Guest", age="old enough to be here."):
+#     print(f"Hello, {name}! You are {age} .")
 
+# greet() #uses default values
+# greet("anand") # uses default age
+# greet("raj", 21) #Overrides both defaults 
+
+# keyword arguments
+def greet(age=21, name="ved"):
+    print(f"Hello, {name}! You are {age} years old.")
+
+greet() #uses default values
+greet(age=23, name="bruno") #uses keyword arguments
+
+print("Apple", "Banana", "Cherry", sep=", ", end="!")
+print()
+
+print("Hello",end=" ")
+print("World")
+print()
+
+for i in range(3):
+    print(i, end="\n")
+
+def add_numbers(*numbers):
+    total = sum(numbers)
+    print("sum is:", total)
+add_numbers(1+2+3+4+5)
+add_numbers(23+234+54+324)
 
