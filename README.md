@@ -28,7 +28,7 @@ python-projects
 
 ### Clone the repository:
 
-git clone https://github.com/your-username/python-projects.git
+git clone https://github.com/rajnish-init/python-projects.git
 
 ### Navigate to the project folder:
 
