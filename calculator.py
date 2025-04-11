@@ -304,26 +304,60 @@
 #         result = square(a)
 #         print(f"The result of {a} squared is: {result}")
 #     else:
-#         print("ERROR: Invalid operator")
+# #         print("ERROR: Invalid operator")
 
 
-a= 4
-b= 8
+# a= 4
+# b= 8
 
-addition = a+b
-print("value of addition is: " + str(addition))
+# addition = a+b
+# print("value of addition is: " + str(addition))
 
-substraction  = a - b
-print(substraction)
-
-
-
+# substraction  = a - b
+# print(substraction)
 
 
 
+# def calculator():
+#     a = float(input("Enter first number: "))
+#     b = float(input("Enter second number: "))
+#     operator = input("Enter an operation (+, -, *, /): ")
+    
+#     if operator == '+':
+#         result = a + b
+#     elif operator == '-':
+#         result = a - b
+#     elif operator == '*':
+#         result = a * b
+#     elif operator == '/':
+#         if b != 0:  # Check for division by zero
+#             result = a / b
+#         else:
+#             print("Error: Division by zero!")
+#             return  # Exit the function if division by zero
+#     else:
+#         print("Invalid entry")
+#         return  # Exit if operator is invalid
+    
+#     print("Result:", result)
 
 
+# import calculator
 
+# calculator(2,4)
+
+# greet_cmd.py
+import sys  # Import the sys module to access argv
+
+# sys.argv is a list of arguments
+# sys.argv[0] is the script name (e.g., "greet_cmd.py")
+# sys.argv[1] is the first argument you pass
+name = sys.argv[1]  # Get the first argument
+
+def greet(name):
+    return f"Hello, {name}"
+
+print(greet(name))
 
 
 
