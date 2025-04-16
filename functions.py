@@ -30,7 +30,7 @@ print_list(cities)
 
 def cal_fact(n): 
     fact = 1
-    for i in range(1, n+1):
+    for i in range(1, n+1): 
         fact*=i
     print(fact)
 
@@ -194,3 +194,8 @@ def add_numbers(*numbers):
 add_numbers(1+2+3+4+5)
 add_numbers(23+234+54+324)
 
+def greet(name):
+    return f"Hello, {name}!"
+
+message = greet("Alice")
+print(message)
